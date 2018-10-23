@@ -7,7 +7,7 @@ describe("Vue component tests", () => {
   });
   it("The component should have a title property.", () => {
     const defaultData = App.data();
-    expect(defaultData.title).toBe("Help it's broken");
+    expect(defaultData.title).toBe("Yi Wei to the rescue!");
   });
 
   it("The component should have an updateCurrentChart function.", () => {
